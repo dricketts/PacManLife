@@ -91,24 +91,6 @@
     }
 }
 
-// Creates and adds dot annotations to the map view.
-//- (void) generateDotAnnotations
-//{
-//    // Remove any old annotations
-//    [dotAnnotationDict removeAllObjects];
-//    for (id <MKAnnotation> annotation in mapView.annotations) {
-//        [mapView removeAnnotation:annotation];
-//    }
-//    
-//    // Add new annotations
-//    for (CLLocation *location in dotSet) {
-//        MKPointAnnotation *annotation = [[MKPointAnnotation alloc] init];
-//        annotation.coordinate = location.coordinate;
-//        [dotAnnotationDict setObject:annotation forKey:location];
-//        [mapView addAnnotation:annotation];
-//    }
-//}
-
 // Called by some map view magic to create the view for an annotation.
 - (MKAnnotationView *)mapView:(MKMapView *) theMapView
             viewForAnnotation:(id <MKAnnotation>)annotation
