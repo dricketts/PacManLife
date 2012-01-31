@@ -194,6 +194,8 @@
     }
 }
 
+// Centers the view so that it includes all the dots
+// at the appropriate zoom level.
 - (void) centerViewOnDots
 {
     MKMapRect zoomRect = MKMapRectNull;
