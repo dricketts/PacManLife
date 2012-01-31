@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6534DB6414D54B8500E3FF52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6534DB6314D54B8500E3FF52 /* UIKit.framework */; };
+		6534DB6614D54B8500E3FF52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6534DB6514D54B8500E3FF52 /* Foundation.framework */; };
+		6534DB6814D54B8500E3FF52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6534DB6714D54B8500E3FF52 /* CoreGraphics.framework */; };
+		6534DB6E14D54B8500E3FF52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6534DB6C14D54B8500E3FF52 /* InfoPlist.strings */; };
+		6534DB7014D54B8500E3FF52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6534DB6F14D54B8500E3FF52 /* main.m */; };
+		6534DB7414D54B8600E3FF52 /* PacManLifeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6534DB7314D54B8600E3FF52 /* PacManLifeAppDelegate.m */; };
+		6534DB7714D54B8600E3FF52 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6534DB7514D54B8600E3FF52 /* MainStoryboard.storyboard */; };
+		6534DB7A14D54B8600E3FF52 /* PacManLifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6534DB7914D54B8600E3FF52 /* PacManLifeViewController.m */; };
+		6534DB8114D54C8900E3FF52 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6534DB8014D54C8900E3FF52 /* MapKit.framework */; };
+		6534DB8314D551BB00E3FF52 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6534DB8214D551BB00E3FF52 /* CoreLocation.framework */; };
+		6534DB8614D6333D00E3FF52 /* Dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 6534DB8514D6333D00E3FF52 /* Dot.png */; };
+		6534DB8A14D65D9300E3FF52 /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = 6534DB8914D65D9300E3FF52 /* pacman.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6534DB5F14D54B8500E3FF52 /* PacManLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacManLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6534DB6314D54B8500E3FF52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6534DB6514D54B8500E3FF52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6534DB6714D54B8500E3FF52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6534DB6B14D54B8500E3FF52 /* PacManLife-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PacManLife-Info.plist"; sourceTree = "<group>"; };
+		6534DB6D14D54B8500E3FF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6534DB6F14D54B8500E3FF52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6534DB7114D54B8500E3FF52 /* PacManLife-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PacManLife-Prefix.pch"; sourceTree = "<group>"; };
+		6534DB7214D54B8600E3FF52 /* PacManLifeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacManLifeAppDelegate.h; sourceTree = "<group>"; };
+		6534DB7314D54B8600E3FF52 /* PacManLifeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacManLifeAppDelegate.m; sourceTree = "<group>"; };
+		6534DB7614D54B8600E3FF52 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6534DB7814D54B8600E3FF52 /* PacManLifeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PacManLifeViewController.h; sourceTree = "<group>"; };
+		6534DB7914D54B8600E3FF52 /* PacManLifeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PacManLifeViewController.m; sourceTree = "<group>"; };
+		6534DB8014D54C8900E3FF52 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6534DB8214D551BB00E3FF52 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6534DB8514D6333D00E3FF52 /* Dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dot.png; path = ../../../Downloads/Dot.png; sourceTree = "<group>"; };
+		6534DB8814D641F700E3FF52 /* londonTest.gpx */ = {isa = PBXFileReference; lastKnownFileType = text; name = londonTest.gpx; path = ../GPX/londonTest.gpx; sourceTree = "<group>"; };
+		6534DB8914D65D9300E3FF52 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pacman.png; path = ../../../Downloads/pacman.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6534DB5C14D54B8500E3FF52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6534DB8314D551BB00E3FF52 /* CoreLocation.framework in Frameworks */,
+				6534DB8114D54C8900E3FF52 /* MapKit.framework in Frameworks */,
+				6534DB6414D54B8500E3FF52 /* UIKit.framework in Frameworks */,
+				6534DB6614D54B8500E3FF52 /* Foundation.framework in Frameworks */,
+				6534DB6814D54B8500E3FF52 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6534DB5414D54B8500E3FF52 = {
+			isa = PBXGroup;
+			children = (
+				6534DB8814D641F700E3FF52 /* londonTest.gpx */,
+				6534DB8214D551BB00E3FF52 /* CoreLocation.framework */,
+				6534DB8014D54C8900E3FF52 /* MapKit.framework */,
+				6534DB6914D54B8500E3FF52 /* PacManLife */,
+				6534DB6214D54B8500E3FF52 /* Frameworks */,
+				6534DB6014D54B8500E3FF52 /* Products */,
+				6534DB8414D6324200E3FF52 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		6534DB6014D54B8500E3FF52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6534DB5F14D54B8500E3FF52 /* PacManLife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6534DB6214D54B8500E3FF52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6534DB6314D54B8500E3FF52 /* UIKit.framework */,
+				6534DB6514D54B8500E3FF52 /* Foundation.framework */,
+				6534DB6714D54B8500E3FF52 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6534DB6914D54B8500E3FF52 /* PacManLife */ = {
+			isa = PBXGroup;
+			children = (
+				6534DB7214D54B8600E3FF52 /* PacManLifeAppDelegate.h */,
+				6534DB7314D54B8600E3FF52 /* PacManLifeAppDelegate.m */,
+				6534DB7514D54B8600E3FF52 /* MainStoryboard.storyboard */,
+				6534DB7814D54B8600E3FF52 /* PacManLifeViewController.h */,
+				6534DB7914D54B8600E3FF52 /* PacManLifeViewController.m */,
+				6534DB6A14D54B8500E3FF52 /* Supporting Files */,
+			);
+			path = PacManLife;
+			sourceTree = "<group>";
+		};
+		6534DB6A14D54B8500E3FF52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6534DB6B14D54B8500E3FF52 /* PacManLife-Info.plist */,
+				6534DB6C14D54B8500E3FF52 /* InfoPlist.strings */,
+				6534DB6F14D54B8500E3FF52 /* main.m */,
+				6534DB7114D54B8500E3FF52 /* PacManLife-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6534DB8414D6324200E3FF52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6534DB8914D65D9300E3FF52 /* pacman.png */,
+				6534DB8514D6333D00E3FF52 /* Dot.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6534DB5E14D54B8500E3FF52 /* PacManLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6534DB7D14D54B8600E3FF52 /* Build configuration list for PBXNativeTarget "PacManLife" */;
+			buildPhases = (
+				6534DB5B14D54B8500E3FF52 /* Sources */,
+				6534DB5C14D54B8500E3FF52 /* Frameworks */,
+				6534DB5D14D54B8500E3FF52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacManLife;
+			productName = PacManLife;
+			productReference = 6534DB5F14D54B8500E3FF52 /* PacManLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6534DB5614D54B8500E3FF52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6534DB5914D54B8500E3FF52 /* Build configuration list for PBXProject "PacManLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6534DB5414D54B8500E3FF52;
+			productRefGroup = 6534DB6014D54B8500E3FF52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6534DB5E14D54B8500E3FF52 /* PacManLife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6534DB5D14D54B8500E3FF52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6534DB6E14D54B8500E3FF52 /* InfoPlist.strings in Resources */,
+				6534DB7714D54B8600E3FF52 /* MainStoryboard.storyboard in Resources */,
+				6534DB8614D6333D00E3FF52 /* Dot.png in Resources */,
+				6534DB8A14D65D9300E3FF52 /* pacman.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6534DB5B14D54B8500E3FF52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6534DB7014D54B8500E3FF52 /* main.m in Sources */,
+				6534DB7414D54B8600E3FF52 /* PacManLifeAppDelegate.m in Sources */,
+				6534DB7A14D54B8600E3FF52 /* PacManLifeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6534DB6C14D54B8500E3FF52 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6534DB6D14D54B8500E3FF52 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6534DB7514D54B8600E3FF52 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6534DB7614D54B8600E3FF52 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6534DB7B14D54B8600E3FF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6534DB7C14D54B8600E3FF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6534DB7E14D54B8600E3FF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PacManLife/PacManLife-Prefix.pch";
+				INFOPLIST_FILE = "PacManLife/PacManLife-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6534DB7F14D54B8600E3FF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PacManLife/PacManLife-Prefix.pch";
+				INFOPLIST_FILE = "PacManLife/PacManLife-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6534DB5914D54B8500E3FF52 /* Build configuration list for PBXProject "PacManLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6534DB7B14D54B8600E3FF52 /* Debug */,
+				6534DB7C14D54B8600E3FF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6534DB7D14D54B8600E3FF52 /* Build configuration list for PBXNativeTarget "PacManLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6534DB7E14D54B8600E3FF52 /* Debug */,
+				6534DB7F14D54B8600E3FF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6534DB5614D54B8500E3FF52 /* Project object */;
+}
